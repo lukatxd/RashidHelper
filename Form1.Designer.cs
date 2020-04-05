@@ -84,6 +84,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "form_main";
             this.Text = "RashidHelper";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(form_main_FormClosing);
             this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
